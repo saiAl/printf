@@ -6,7 +6,7 @@
  * Return: 1 on seccuss.
  */
 
-int _putchar(char c)
+int _write(char c)
 {
 	static char *buffer;
 	static int count;

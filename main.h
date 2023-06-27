@@ -17,7 +17,7 @@ int _controller(va_list args, const char *string);
 int percent(va_list args, const char *String, int *count);
 
 /* print to stdout */
-int _putchar(char c);
+int _write(char c);
 int _printf(const char *format, ...);
 
 #endif
