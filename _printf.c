@@ -31,7 +31,8 @@ int _printf(const char *format, ...)
 #include "main.h"
 
 /**
- * _controller - function that handles the different functionality of printf flag, width ...
+ * _controller - function that handles the different
+ * functionality of printf flag, width ...
  * @args: list of argument provided from _printf
  * @string: a string to holds last fixed paramater (format) from _printf
  * Return: size of the printed characters on seccuss, -1 on failure.
@@ -68,7 +69,8 @@ int _controller(va_list args, const char *string)
  * percent - function that handles the percent sign (%)
  * @args: list of arguemtns from _printf
  * @string: string characters from _controller
- * @count: paramater to store the address of the current counter at (%) place in _contriller
+ * @count: paramater to store the address of
+ * the current counter at (%) place in _contriller
  * Return: the bytes of characters processed, -1 on failure
  */
 
